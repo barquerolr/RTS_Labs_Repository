@@ -1,0 +1,10 @@
+If you could change 1 thing about your favorite framework/language/platform (pick one), what would it be?
+
+Answer: I would change 1 main thing in regards to the C/C++ language: compiling threads.
+
+In my multicore/multithread and operating systems class back at VCU, there was always an issue regarding compiling anything 
+involving threads. Whether it was using notepad++ and then a MingW compilers on a terminal, or using Visual Studio, both would fail at 
+compiling threads at their own rate. Notepad would not compile anything OMP related, Visual Studio would not compile pthreads related, so
+to address this issue, I had to either use Linux, use my operating system class's Unix SSH server, or download CLion. 
+So, while it sounds petty, I would change the C/C++ language so that compiling anything related to threads or multicore/multithreading
+related is easier and smoother.
