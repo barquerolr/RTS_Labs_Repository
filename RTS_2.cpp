@@ -35,6 +35,13 @@ int main(void)
 	difference = zero_position-shift-1; //This will find the position of the last character after the rotation has occurred.
 	printf("%.*s\n", difference, output);
 	
+	/*Changes made on 8/11/2020
+	  Realized I forgot to delete the dynamic allocated variables.;
+	 */
+	
+	delete [] input;
+	delete [] output;
+	delete [] binary_zero;
 }
 	
 
